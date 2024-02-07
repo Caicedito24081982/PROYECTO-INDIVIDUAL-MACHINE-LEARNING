@@ -19,14 +19,17 @@ Aqui una imagen-diccionario-del Dataframe general, tres(3) archivos:
 Exploración, Transformación y Carga (ETL)
 A partir de los 3 dataset proporcionados (steam_games, user_reviews y user_items) referentes a la plataforma de Steam, en primera instancia se realizó el proceso de extraccion de los datos necesarios los cuales se resaltan en la anterior imagen.
 
-Archivo steam_games
+Archivo steam_games:
+
 Se cargo el archivo que venia en formato '.gz', se descomprimio y se cargo a un DataFrame para poder manejar el contenido.
 Se extrajo las columnas necesarias para nuestro proyecto.
 Se eliminaron todas las filas en las que todas sus columnas tuvieran valores nulos.
 Se extrajeron años de la columna release_date.
 Se desanido la columna 'genres' ya que traia mas de un genero para un mismo juego.
 Se exportó para tener el dataset limpio en un formato JSON para despues facilitar su lectura.
-Archivo user_reviews
+
+Archivo user_reviews:
+
 Se cargo el archivo que venia en formato '.gz', se descomprimio y se cargo en un DataFrame para poder manejar los datos.
 Se eliminaro todas las filas en las que todas sus columnas tuvieran valores nulos.
 Se desanido la columna 'reviews' que contenia diccionarios.
@@ -34,7 +37,9 @@ Se desanidaron los diccionarios que tenia en la columna reviews anteriormente cr
 Se tomaron unicamente las columnas necesarias para nuestro proyecto.
 Se creó la columna sentiment_analysis. Se hizo un analisis de sentimiento para la columna 'review' que contenia comentarios de usuarios para darle un mejor manejo.
 Se exportó para tener el dataset limpio en un formato JSON para despues facilitar su lectura.
-Archivo user_items
+
+Archivo user_items:
+
 Se realizó un explode ya que la columna de items era una lista de diccionarios.
 Se eliminaro todas las filas en las que todas sus columnas tuvieran valores nulos.
 Se exportó para tener el dataset limpio.
@@ -44,14 +49,14 @@ Finalmente, se crea un dataset comprimido en formato JSON, en el que se combinan
 Despliegue para la API
 Se desarrollaron las siguientes funciones, a las cuales se podrá acceder desde la API en la página Render:
 
-def developer( desarrollador : str ): Devuelve cantidad de items y porcentaje de contenido Free por año según empresa desarrolladora.
+.def developer( desarrollador : str ): Devuelve cantidad de items y porcentaje de contenido Free por año según empresa desarrolladora.
 
-def userdata( User_id : str ): Devuelve cantidad de dinero gastado por el usuario, el porcentaje de recomendación en base a reviews.recommend y cantidad de items.
+.def userdata( User_id : str ): Devuelve cantidad de dinero gastado por el usuario, el porcentaje de recomendación en base a reviews.recommend y cantidad de items.
 
-user_for_genre(genre: str):Devuelve el usuario con mas horas acumuladas para el genero dado.
+.user_for_genre(genre: str):Devuelve el usuario con mas horas acumuladas para el genero dado.
 
-def best_developer_year( año : int ): Devuelve el top 3 de desarrolladores con juegos MÁS recomendados por usuarios para el año dado. (reviews.recommend = True y comentarios positivos).
+.def best_developer_year( año : int ): Devuelve el top 3 de desarrolladores con juegos MÁS recomendados por usuarios para el año dado. (reviews.recommend = True y comentarios positivos).
 
-def developer_reviews_analysis( desarrolladora : str ): Según el desarrollador, devuelve un diccionario con el nombre del desarrollador como llave y una lista con la cantidad total de registros de reseñas de usuarios que se encuentren categorizados con un análisis de sentimiento como valor positivo o negativo.
+.def developer_reviews_analysis( desarrolladora : str ): Según el desarrollador, devuelve un diccionario con el nombre del desarrollador como llave y una lista con la cantidad total de registros de reseñas de usuarios que se encuentren categorizados con un análisis de sentimiento como valor positivo o negativo.
 
 recommend_games_route(game_name: str): Dado el nombre de un juego, esta funsion retorna 5 juegos recomendados.
