@@ -201,11 +201,15 @@ async def load_data():
     with gzip.open(ruta_archivo, 'rt', encoding='utf-8') as f:
         df_games = pd.read_json(f, lines=True)
     
-    # Utilizar 'genres' y otras columnas disponibles para las características
-    # Si 'developer' está disponible, se puede incluir para mejorar las recomendaciones
-    df_games['combined_features'] = df_games['genres'].apply(lambda x: ' '.join(x) if x else '')
-    if 'developer' in df_games.columns:
-        df_games['combined_features'] += ' ' + df_games['developer']
+    # Asegurarse de que no haya valores NaN en las columnas usadas para las características
+    df_games['genres'] = df_games['genres'].apply(lambda x: ' '.join(x) if x else '')
+    df_games['developer'] = df_games['developer'].fillna('')
+    
+    # Combinar las características
+    df_games['combined_features'] = df_games['genres'] + ' ' + df_games['developer']
+    
+    # Reemplazar valores NaN con una cadena vacía en la columna 'combined_features'
+    df_games['combined_features'] = df_games['combined_features'].fillna('')
     
     # Vectorizar las características
     vectorizer = TfidfVectorizer(stop_words='english')
@@ -229,8 +233,6 @@ async def recomendacion_juego(product_id: int):
     recommended_games = df_games.iloc[game_indices][['id', 'title']].to_dict(orient='records')
     
     return recommended_games
-
-
 
 
 
