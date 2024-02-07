@@ -12,9 +12,11 @@
    
    
    
-   Link API desplegada en Render:  https://jorge-enrique-caicedo.onrender.com/docs#/
-    
-                                                                   INTRODUCCION    
+   Link API desplegada en Render:  https://jorge-enrique-caicedo.onrender.com/docs#/                                                                                           Link video:  https://youtu.be/QZ5kIKQmvoA
+
+
+   
+                                              INTRODUCCION    
 
 Para llevar adelante el proyecto, seguí un proceso estructurado desde el análisis exploratorio de datos (EDA) hasta el despliegue de la API y la creación del modelo de recomendación. 
 
