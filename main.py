@@ -34,7 +34,7 @@ async def developer_info(desarrollador: str) -> dict:
 
 @app.get("/user_for_genre/{genero}")
 async def user_for_genre(genero: str) -> dict:
-    ruta_archivo = r'C:\Users\ASUS\PI_ML_OPS\DATA\combined_data.json.gz'
+    ruta_archivo = 'combined_data.json.gz'
     if not os.path.exists(ruta_archivo):
         raise HTTPException(status_code=404, detail="Archivo no encontrado.")
     try:
@@ -78,7 +78,7 @@ async def user_for_genre(genero: str) -> dict:
 
 @app.get("/best_developer_year/{year}")
 async def best_developer_year(year: int) -> List[Dict[str, str]]:
-    ruta_archivo = r'C:\Users\ASUS\PI_ML_OPS\DATA\combined_data.json.gz'
+    ruta_archivo = 'combined_data.json.gz'
     if not os.path.exists(ruta_archivo):
         raise HTTPException(status_code=404, detail="Archivo no encontrado.")
     try:
@@ -122,7 +122,7 @@ async def best_developer_year(year: int) -> List[Dict[str, str]]:
 
 @app.get("/developer_reviews_analysis/{desarrolladora}")
 async def developer_reviews_analysis(desarrolladora: str) -> Dict[str, Dict[str, int]]:
-    ruta_archivo = r'C:\Users\ASUS\PI_ML_OPS\DATA\combined_data.json.gz'
+    ruta_archivo = 'combined_data.json.gz'
     if not os.path.exists(ruta_archivo):
         raise HTTPException(status_code=404, detail="Archivo no encontrado.")
     try:
@@ -161,7 +161,7 @@ async def developer_reviews_analysis(desarrolladora: str) -> Dict[str, Dict[str,
 
 @app.get("/userdata/{User_id}")
 async def userdata(User_id: str) -> Dict[str, str]:
-    ruta_archivo = r'C:\Users\ASUS\PI_ML_OPS\DATA\combined_data.json.gz'
+    ruta_archivo = 'combined_data.json.gz'
     if not os.path.exists(ruta_archivo):
         raise HTTPException(status_code=404, detail="Archivo no encontrado.")
     try:
