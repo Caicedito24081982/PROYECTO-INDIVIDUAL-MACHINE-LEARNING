@@ -14,7 +14,7 @@
    
    Link API desplegada en Render:  https://jorge-enrique-caicedo.onrender.com/docs#/
     
-                                              INTRODUCCION    
+                                                                   INTRODUCCION    
 
 Para llevar adelante el proyecto, seguí un proceso estructurado desde el análisis exploratorio de datos (EDA) hasta el despliegue de la API y la creación del modelo de recomendación. 
 
@@ -24,9 +24,11 @@ Aqui una imagen-diccionario-del Dataframe general, tres(3) archivos:
 
 ![image](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-MACHINE-LEARNING/assets/120407303/1ca8ddc3-728d-4c4e-878e-0170427db54b)
 
-                                           DESARROLLO
+                                                         DESARROLLO
 Exploración, Transformación y Carga (ETL)
 A partir de los 3 dataset proporcionados (steam_games, user_reviews y user_items) referentes a la plataforma de Steam, en primera instancia se realizó el proceso de extraccion de los datos necesarios los cuales se resaltan en la anterior imagen.
+
+ES IMPORTANTANTE RESALTAR QUE, EL ETL, EN MAYOR PROPORCION, SE EFEECTUO AL ARCHIVO DENOMINADO, combined_data.json.gz
 
 Archivo steam_games:
 
