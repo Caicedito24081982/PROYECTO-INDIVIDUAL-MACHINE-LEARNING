@@ -1,10 +1,19 @@
-   # PROYECTO INDIVIDUAL-MACHINE LEARNING-
+                               # PROYECTO INDIVIDUAL-MACHINE LEARNING-
+                            ESTUDIANTE: JORGE ENRIQUE CAICEDO RIASCOS
 
-![image](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-MACHINE-LEARNING/assets/120407303/0084fc7a-9b41-40e1-ac1a-8228a428f98f)
+![image](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-MACHINE-LEARNING/assets/120407303/9728cbac-eab6-4299-ad6d-ef17f721084e)
+
 
 
                 
-                   
+
+
+  
+   
+   
+   
+   Link API desplegada en Render:  https://jorge-enrique-caicedo.onrender.com/docs#/
+    
                                               INTRODUCCION    
 
 Para llevar adelante el proyecto, seguí un proceso estructurado desde el análisis exploratorio de datos (EDA) hasta el despliegue de la API y la creación del modelo de recomendación. 
