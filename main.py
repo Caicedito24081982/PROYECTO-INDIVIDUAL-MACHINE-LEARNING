@@ -8,7 +8,7 @@ app = FastAPI()
 
 @app.get("/developer/{desarrollador}")
 async def developer_info(desarrollador: str) -> dict:
-    ruta_archivo = r'C:\Users\ASUS\PI_ML_OPS\DATA\combined_data.json.gz'
+    ruta_archivo = 'combined_data.json.gz'
     if not os.path.exists(ruta_archivo):
         raise HTTPException(status_code=404, detail="Archivo no encontrado.")
     try:
