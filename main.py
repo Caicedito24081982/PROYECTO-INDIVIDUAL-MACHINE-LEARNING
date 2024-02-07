@@ -1,4 +1,6 @@
 from fastapi import FastAPI, HTTPException
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
 import pandas as pd
 import gzip
 import os
@@ -189,6 +191,44 @@ async def userdata(User_id: str) -> Dict[str, str]:
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error interno del servidor: {str(e)}")
 
+
+@app.on_event("startup")
+async def load_data():
+    global df_games, cosine_sim
+    ruta_archivo = 'combined_data.json.gz'
+    if not os.path.exists(ruta_archivo):
+        raise RuntimeError("Archivo de juegos no encontrado.")
+    with gzip.open(ruta_archivo, 'rt', encoding='utf-8') as f:
+        df_games = pd.read_json(f, lines=True)
+    
+    # Utilizar 'genres' y otras columnas disponibles para las características
+    # Si 'developer' está disponible, se puede incluir para mejorar las recomendaciones
+    df_games['combined_features'] = df_games['genres'].apply(lambda x: ' '.join(x) if x else '')
+    if 'developer' in df_games.columns:
+        df_games['combined_features'] += ' ' + df_games['developer']
+    
+    # Vectorizar las características
+    vectorizer = TfidfVectorizer(stop_words='english')
+    feature_vectors = vectorizer.fit_transform(df_games['combined_features'])
+    cosine_sim = cosine_similarity(feature_vectors)
+
+@app.get("/recomendacion_juego/{product_id}")
+async def recomendacion_juego(product_id: int):
+    if 'cosine_sim' not in globals():
+        raise HTTPException(status_code=500, detail="Modelo de recomendación no cargado correctamente.")
+    
+    # Verificar que el ID del producto exista en el DataFrame
+    if product_id not in df_games['id'].values:
+        raise HTTPException(status_code=404, detail="ID de producto no encontrado.")
+    
+    idx = df_games.index[df_games['id'] == product_id].tolist()[0]
+    sim_scores = list(enumerate(cosine_sim[idx]))
+    sim_scores = sorted(sim_scores, key=lambda x: x[1], reverse=True)
+    sim_scores = sim_scores[1:6]  # Obtener los 5 juegos más similares
+    game_indices = [i[0] for i in sim_scores]
+    recommended_games = df_games.iloc[game_indices][['id', 'title']].to_dict(orient='records')
+    
+    return recommended_games
 
 
 
