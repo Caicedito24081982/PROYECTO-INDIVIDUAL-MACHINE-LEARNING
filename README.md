@@ -76,3 +76,6 @@ Se desarrollaron las siguientes funciones, a las cuales se podrá acceder desde 
 .def developer_reviews_analysis( desarrolladora : str ): Según el desarrollador, devuelve un diccionario con el nombre del desarrollador como llave y una lista con la cantidad total de registros de reseñas de usuarios que se encuentren categorizados con un análisis de sentimiento como valor positivo o negativo.
 
 recommend_games_route(game_name: str): Dado el nombre de un juego, esta funsion retorna 5 juegos recomendados.
+
+
+Video explicativo: https://www.youtube.com/watch?v=QZ5kIKQmvoA&t=183s
