@@ -1,7 +1,7 @@
                                # PROYECTO INDIVIDUAL-MACHINE LEARNING-
                             ESTUDIANTE: JORGE ENRIQUE CAICEDO RIASCOS
+![image](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-MACHINE-LEARNING/assets/120407303/a7234189-ed88-4d7d-aace-feb99f30d17e)
 
-![image](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-MACHINE-LEARNING/assets/120407303/9728cbac-eab6-4299-ad6d-ef17f721084e)
 
 
 
