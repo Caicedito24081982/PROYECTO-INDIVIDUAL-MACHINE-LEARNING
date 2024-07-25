@@ -37,7 +37,7 @@ Inicie explorando,analizando y limpiando los datos (ETL), identificando y creand
 Exploración, Transformación y Carga (ETL)
 A partir de los 3 dataset proporcionados (steam_games, user_reviews y user_items) referentes a la plataforma de Steam, en primera instancia se realizó el proceso de extraccion de los datos necesarios los cuales se resaltan en la anterior imagen.
 
-ES IMPORTANTANTE RESALTAR QUE, EL ETL, EN MAYOR PROPORCION, SE EFEECTUO AL ARCHIVO DENOMINADO, combined_data.json.gz
+Es importante resaltar que, el ETL, en mayor proporcion, se efectuó al Dataframe denominado, combined_data.json.gz
 
 ## Archivo steam_games:
 
@@ -81,5 +81,5 @@ Se desarrollaron las siguientes funciones, a las cuales se podrá acceder desde 
 
 recommend_games_route(game_name: str): Dado el nombre de un juego, esta funsion retorna 5 juegos recomendados.
 
-
+## Conclusiones: 
 ## Video explicativo: https://www.youtube.com/watch?v=QZ5kIKQmvoA&t=183s
