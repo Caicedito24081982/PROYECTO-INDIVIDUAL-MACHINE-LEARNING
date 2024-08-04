@@ -1,6 +1,6 @@
 # PROYECTO INDIVIDUAL No 1 - MACHINE LEARNING OPERATIONS
 
-## Imagen de Steam Games
+## Steam Games
 
 ![image](https://github.com/user-attachments/assets/11a865b8-5087-4e2f-ad3d-0250b7ff7c5a)
 
