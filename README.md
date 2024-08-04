@@ -14,6 +14,8 @@ Este proyecto abarca desde el análisis exploratorio de datos (EDA) hasta el des
 
 ## Librerías Utilizadas
 
+![image](https://github.com/user-attachments/assets/f8d98053-5289-45d4-84f6-32bbaaf5300e)
+
 - [Image 1: image]
 
 ## Enlaces Importantes
