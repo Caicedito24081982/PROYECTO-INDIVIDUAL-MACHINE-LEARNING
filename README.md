@@ -88,10 +88,7 @@ recommend_games_route(game_name: str): Dado el nombre de un juego, esta funsion 
 
 ![image](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-MACHINE-LEARNING/assets/120407303/51291457-63f5-4ad0-87e6-9e5fe1646fb9)
 
- ##  LIBRERIAS UTILIZADAS
-![image](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-MACHINE-LEARNING/assets/120407303/4dcafe42-a0c1-44d8-ba5c-2d3ee6dd6d8c)
-
-## Introducción
+ ## Introducción
 
 Este proyecto abarca desde el análisis exploratorio de datos (EDA) hasta el despliegue de una API y la creación de un modelo de recomendación. El proceso incluye:
 
@@ -101,7 +98,8 @@ Este proyecto abarca desde el análisis exploratorio de datos (EDA) hasta el des
 
 ## Librerías Utilizadas
 
-- [Image 1: image]
+![image](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-MACHINE-LEARNING/assets/120407303/4dcafe42-a0c1-44d8-ba5c-2d3ee6dd6d8c)
+
 
 ## Enlaces Importantes
 
