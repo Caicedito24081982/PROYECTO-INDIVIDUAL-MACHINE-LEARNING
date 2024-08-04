@@ -72,4 +72,4 @@ El proyecto demostró la capacidad de integrar múltiples técnicas de machine l
 - requirements.txt: Librerias necesarias para que el modelo funcione en render.
 
 ## Alumno de HENRY
-## Jorge Enrique Caicedo Riascos
+## - Jorge Enrique Caicedo Riascos
