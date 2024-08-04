@@ -1,5 +1,7 @@
 # PROYECTO INDIVIDUAL No 1 - MACHINE LEARNING OPERATIONS
 
+file:///C:/Users/ASUS/Downloads/DALL%C2%B7E%202024-08-04%2000.49.56%20-%20A%20sleek%20and%20elegant%20image%20representing%20the%20video%20game%20company%20Steam%20Games.%20The%20image%20should%20include%20a%20modern%20and%20stylish%20logo,%20possibly%20featuring%20game.webp
+
 ## Introducción
 
 Este proyecto abarca desde el análisis exploratorio de datos (EDA) hasta el despliegue de una API y la creación de un modelo de recomendación. El proceso incluye:
