@@ -2,7 +2,7 @@
 
 ## Imagen de Steam Games
 
-![Steam Games](ENLACE_DIRECTO_DE_LA_IMAGEN)
+![image](https://github.com/user-attachments/assets/11a865b8-5087-4e2f-ad3d-0250b7ff7c5a)
 
 ## Introducción
 
