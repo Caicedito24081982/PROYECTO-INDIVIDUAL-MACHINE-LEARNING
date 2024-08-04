@@ -63,13 +63,13 @@ El proyecto demostró la capacidad de integrar múltiples técnicas de machine l
 - 
 ## Estructura del Repositorio
  
-#Assets: sirve para almacenar y organizar los archivos multimedia y otros recursos necesarios.
-#Datasets: Archivos necesarios donde consultará nuestro codigo principal.
-#Notebooks: Notebooks de Jupyter utilizados para la exploración y desarrollo.
-#gitignore: Esto ayuda a mantener limpio el historial de versiones y evita incluir archivos innecesarios o sensibles en el repositorio.
-#main.py: Código principal del proyecto para la API.
-#Readme: Sirve como una guía rápida para comprender el proyecto y contribuir eficientemente.
-#requirements.txt: Librerias necesarias para que el modelo funcione en render.
+- Assets: sirve para almacenar y organizar los archivos multimedia y otros recursos necesarios.
+- Datasets: Archivos necesarios donde consultará nuestro codigo principal.
+- Notebooks: Notebooks de Jupyter utilizados para la exploración y desarrollo.
+- gitignore: Esto ayuda a mantener limpio el historial de versiones y evita incluir archivos innecesarios o sensibles en el repositorio.
+- main.py: Código principal del proyecto para la API.
+- Readme: Sirve como una guía rápida para comprender el proyecto y contribuir eficientemente.
+- requirements.txt: Librerias necesarias para que el modelo funcione en render.
 
 ## Alumno de HENRY
-Jorge Enrique Caiceo Riascos
+## Jorge Enrique Caicedo Riascos
