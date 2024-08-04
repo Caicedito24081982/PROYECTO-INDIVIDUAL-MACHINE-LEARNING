@@ -2,7 +2,7 @@
 
 ## Imagen de Steam Games
 
-![Steam Games](sandbox:/mnt/data/A_sleek_and_elegant_image_representing_the_video_g.png)
+![Steam Games](ENLACE_DIRECTO_DE_LA_IMAGEN)
 
 ## Introducción
 
