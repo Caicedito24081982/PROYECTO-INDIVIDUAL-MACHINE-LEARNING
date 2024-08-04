@@ -1,6 +1,6 @@
 # PROYECTO INDIVIDUAL No 1 - MACHINE LEARNING OPERATIONS
 
-## Multinacional de Video Juegos 
+## Multinacional de Video Juegos Steam Games
 
 ![image](https://github.com/user-attachments/assets/c16bee11-2131-461a-957a-0572bbbf46db)
 
