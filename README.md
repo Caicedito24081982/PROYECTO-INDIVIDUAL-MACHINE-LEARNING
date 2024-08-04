@@ -8,39 +8,9 @@ Este proyecto abarca desde el análisis exploratorio de datos (EDA) hasta el des
 2. **Desarrollo de un modelo de recomendación utilizando técnicas de machine learning**
 3. **Despliegue de la API en Render**
 
-## Tabla de Contenidos
-- [Librerías Utilizadas](#librerías-utilizadas)
-- [Enlaces Importantes](#enlaces-importantes)
-- [Desarrollo](#desarrollo)
-  - [Exploración, Transformación y Carga (ETL)](#exploración-transformación-y-carga-etl)
-  - [Funciones Desarrolladas](#funciones-desarrolladas)
-- [Conclusiones](#conclusiones)
-- [Video Explicativo](#video-explicativo)
-
 ## Librerías Utilizadas
 
-```python
-# Ejemplo de librerías
-import pandas as pd
-import numpy as np
-import requests
-
-# PROYECTO INDIVIDUAL No 1 - MACHINE LEARNING OPERATIONS
-
-![image](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-MACHINE-LEARNING/assets/120407303/51291457-63f5-4ad0-87e6-9e5fe1646fb9)
-
- ## Introducción
-
-Este proyecto abarca desde el análisis exploratorio de datos (EDA) hasta el despliegue de una API y la creación de un modelo de recomendación. El proceso incluye:
-
-1. **Exploración y limpieza de datos (ETL)**
-2. **Desarrollo de un modelo de recomendación utilizando técnicas de machine learning**
-3. **Despliegue de la API en Render**
-
-## Librerías Utilizadas
-
-![image](https://github.com/Caicedito24081982/PROYECTO-INDIVIDUAL-MACHINE-LEARNING/assets/120407303/4dcafe42-a0c1-44d8-ba5c-2d3ee6dd6d8c)
-
+- [Image 1: image]
 
 ## Enlaces Importantes
 
@@ -85,4 +55,3 @@ El proyecto demostró la capacidad de integrar múltiples técnicas de machine l
 ## Video Explicativo
 
 - [https://www.youtube.com/watch?v=QZ5kIKQmvoA&t=183s](https://www.youtube.com/watch?v=QZ5kIKQmvoA&t=183s)
-
