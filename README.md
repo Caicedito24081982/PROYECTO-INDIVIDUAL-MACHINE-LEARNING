@@ -15,6 +15,8 @@ Este proyecto abarca desde el análisis exploratorio de datos (EDA) hasta el des
 
 ## Librerías Utilizadas
 
+![image](https://github.com/user-attachments/assets/b2cf078f-36be-4cbc-8089-1a55ab4102c8)
+
 ## Enlaces Importantes
 
 - **API Desplegada en Render:** [https://jorge-enrique-caicedo.onrender.com/docs](https://jorge-enrique-caicedo.onrender.com/docs)
