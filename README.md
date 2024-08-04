@@ -2,6 +2,9 @@
 
 ## Steam Games
 
+![image](https://github.com/user-attachments/assets/52b343dc-9092-4b98-b25c-48d6e8bfcc40)
+
+
 ![image](https://github.com/user-attachments/assets/11a865b8-5087-4e2f-ad3d-0250b7ff7c5a)
 
 ## Introducción
@@ -13,10 +16,6 @@ Este proyecto abarca desde el análisis exploratorio de datos (EDA) hasta el des
 3. **Despliegue de la API en Render**
 
 ## Librerías Utilizadas
-
-![image](https://github.com/user-attachments/assets/f8d98053-5289-45d4-84f6-32bbaaf5300e)
-
-- [Image 1: image]
 
 ## Enlaces Importantes
 
