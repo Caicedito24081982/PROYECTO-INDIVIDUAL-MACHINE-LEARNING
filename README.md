@@ -60,6 +60,12 @@ El proyecto demostró la capacidad de integrar múltiples técnicas de machine l
 ## Video Explicativo
 
 - [https://www.youtube.com/watch?v=QZ5kIKQmvoA&t=183s](https://www.youtube.com/watch?v=QZ5kIKQmvoA&t=183s)
+
+- ## Video Explicativo
+
+Haz clic en la imagen para ver el video.
+
+[![Mi Primer MLOps](sandbox:/mnt/data/Mi_Primer_MLOps.png)](https://www.youtube.com/watch?v=QZ5kIKQmvoA&t=183s)
 - 
 ## Estructura del Repositorio
  
