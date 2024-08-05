@@ -2,7 +2,8 @@
 
 ## Multinacional de Video Juegos Steam Games
 
-![image](https://github.com/user-attachments/assets/c16bee11-2131-461a-957a-0572bbbf46db)
+![image](https://github.com/user-attachments/assets/4d9be532-0a27-4353-9d49-d9a5707e56eb)
+
 
 
 ## Introducción
