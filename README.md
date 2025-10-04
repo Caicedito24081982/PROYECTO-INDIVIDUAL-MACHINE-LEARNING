@@ -2,7 +2,7 @@
 
 ## Multinacional de Video Juegos Steam Games
 
-![image](https://github.com/user-attachments/assets/4d9be532-0a27-4353-9d49-d9a5707e56eb)
+![Steam Games Header](steam_games_header.png)
 
 
 
@@ -16,7 +16,7 @@ Este proyecto abarca desde el análisis exploratorio de datos (EDA) hasta el des
 
 ## Librerías Utilizadas
 
-![image](https://github.com/user-attachments/assets/b2cf078f-36be-4cbc-8089-1a55ab4102c8)
+![Tech Stack](libraries_tech_stack.png)
 
 ## Enlaces Importantes
 
