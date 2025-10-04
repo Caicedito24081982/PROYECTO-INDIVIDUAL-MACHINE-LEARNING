@@ -2,7 +2,7 @@
 
 ## Multinacional de Video Juegos Steam Games
 
-![Steam Games Animated](steam_games_animated.mp4)
+![Steam Games Animated](steam_games_animated.gif)
 
 ---
 
@@ -14,7 +14,7 @@ Este proyecto presenta una API desarrollada con FastAPI para servir un modelo de
 
 ## Librerías Utilizadas
 
-![Tech Stack Animated](tech_stack_animated.mp4)
+![Tech Stack Animated](tech_stack_animated.gif)
 
 ---
 
