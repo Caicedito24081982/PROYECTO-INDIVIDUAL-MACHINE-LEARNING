@@ -18,12 +18,24 @@ Este proyecto presenta una API desarrollada con FastAPI para servir un modelo de
 
 ---
 
+## Visualización de Machine Learning
+
+![ML Visualization](ml_visualization_animated.gif)
+
+---
+
 ## Características
 
 - **API de alto rendimiento:** Construida con FastAPI, que ofrece un rendimiento excepcional y una documentación de API interactiva generada automáticamente.
 - **Modelo de recomendación:** Utiliza un modelo de similitud de coseno basado en características de los juegos (géneros y desarrolladores) para ofrecer recomendaciones personalizadas.
 - **Arquitectura modular:** El código está organizado en una estructura de directorios lógica que separa las rutas, los servicios y el núcleo de la aplicación, facilitando el mantenimiento y la escalabilidad.
 - **Gestión de datos eficiente:** Los datos se cargan una sola vez al iniciar la aplicación y se cachean en memoria para un acceso rápido y eficiente en todas las solicitudes.
+
+---
+
+## Desarrollo Full Stack
+
+![Full Stack Development](fullstack_dev_animated.gif)
 
 ---
 
@@ -60,6 +72,12 @@ El proyecto sigue una estructura modular para una mejor organización y mantenib
 └── requirements.txt # Dependencias del proyecto
 
 ```
+
+---
+
+## Programación Animada
+
+![Programming Animation](programming_animated.gif)
 
 ---
 
@@ -119,53 +137,11 @@ A continuación se describen los endpoints disponibles en la API.
 
  Devuelve estadísticas sobre un desarrollador específico, incluyendo la cantidad de juegos lanzados y el porcentaje de juegos gratuitos por año.
 
- **Ejemplo de respuesta:**
-
- ```json
- {
-  "Desarrollador": "Valve",
-  "Estadísticas por año": [
-  {
-  "year": 2012,
-  "Estadisticas": {
-  "Cantidad de Items": 1,
-  "Contenido Free": "0.00%"
-  }
-  },
-  {
-  "year": 2013,
-  "Estadisticas": {
-  "Cantidad de Items": 1,
-  "Contenido Free": "0.00%"
-  }
-  }
-  ]
- }
- ```
-
 ### Genres
 
 - **GET /user_for_genre/{genero}**
 
  Devuelve el usuario que más horas ha jugado para un género específico, junto con un desglose de las horas jugadas por año.
-
- **Ejemplo de respuesta:**
-
- ```json
- {
-  "Usuario con más horas jugadas para Género Action": "Sp33dy",
-  "Horas jugadas": [
-  {
-  "year": 2010,
-  "Horas": 12345
-  },
-  {
-  "year": 2011,
-  "Horas": 54321
-  }
-  ]
- }
- ```
 
 ### Recommendations
 
@@ -176,20 +152,12 @@ A continuación se describen los endpoints disponibles en la API.
  **IDs válidos para probar:**
  - 761140, 643980, 670290, 767400, 772540
 
- **Ejemplo de respuesta:**
+---
 
- ```json
- [
-  {
-  "id": 123,
-  "title": null
-  },
-  {
-  "id": 456,
-  "title": null
-  }
- ]
- ```
+## Enlaces Importantes
+
+- **API Desplegada en Render:** [https://jorge-enrique-caicedo.onrender.com/docs](https://jorge-enrique-caicedo.onrender.com/docs)
+- **Video Explicativo:** [https://youtu.be/QZ5kIKQmvoA](https://youtu.be/QZ5kIKQmvoA)
 
 ---
 
@@ -208,4 +176,3 @@ Las contribuciones son bienvenidas. Si deseas contribuir a este proyecto, por fa
 ## Alumno
 
 - **Jorge Enrique Caicedo Riascos** - [Caicedito24081982](https://github.com/Caicedito24081982)
-
