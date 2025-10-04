@@ -193,6 +193,14 @@ A continuación se describen los endpoints disponibles en la API.
 
 ---
 
+## 🎬 Video Explicativo del Proyecto
+
+[![Video Explicativo - Machine Learning Operations](video_explicativo_preview.png)](https://youtu.be/QZ5kIKQmvoA)
+
+**Haz clic en la imagen para ver la explicación completa del proyecto en YouTube**
+
+---
+
 ## Contribuciones
 
 Las contribuciones son bienvenidas. Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:

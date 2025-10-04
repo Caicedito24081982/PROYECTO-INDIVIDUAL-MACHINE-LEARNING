@@ -21,7 +21,7 @@ Este proyecto abarca desde el análisis exploratorio de datos (EDA) hasta el des
 ## Enlaces Importantes
 
 - **API Desplegada en Render:** [https://jorge-enrique-caicedo.onrender.com/docs](https://jorge-enrique-caicedo.onrender.com/docs)
-- **Video Explicativo:** [https://youtu.be/QZ5kIKQmvoA](https://youtu.be/QZ5kIKQmvoA)
+- **Video Explicativo:** [Ver en YouTube](https://youtu.be/QZ5kIKQmvoA) 🎬
 
 ## Desarrollo
 
@@ -60,7 +60,9 @@ El proyecto demostró la capacidad de integrar múltiples técnicas de machine l
 
 ## Video Explicativo
 
-- [https://www.youtube.com/watch?v=QZ5kIKQmvoA&t=183s](https://www.youtube.com/watch?v=QZ5kIKQmvoA&t=183s)
+[![Video Explicativo del Proyecto](video_explicativo_preview.png)](https://youtu.be/QZ5kIKQmvoA)
+
+**Haz clic en la imagen para ver el video completo en YouTube**
 
 ## Estructura del Repositorio
  
